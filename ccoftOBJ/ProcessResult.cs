@@ -53,7 +53,6 @@ namespace ccoftOBJ
                 m_lUserMessageList.Add("Process Successful");
             }
         }
-
         public ProcessResult(string p_sClass, string p_sMethod, int p_iLastId, DataTable p_cDataTable,
             ProcessState p_eProcessState, Exception p_cException, SystemMessage p_eMessage)
         {

@@ -315,7 +315,7 @@ namespace ccoftDAL.Executor
                 m_lIndexColumnList.Clear();
             }
         }
-        public override System.Data.DataTable f_GetDataTable(string p_sTableNameOrSqlQuery, bool p_bIsUsing)
+        public override DataTable f_GetDataTable(string p_sTableNameOrSqlQuery, bool p_bIsUsing)
         {
             DataTable l_cDataTable = new DataTable();
             if (!string.IsNullOrEmpty(m_sReturnSqlQuery))
