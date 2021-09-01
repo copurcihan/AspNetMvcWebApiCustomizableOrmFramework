@@ -37,7 +37,7 @@ namespace api
                         // additional fields by chaining methods off SingleApiVersion.
                         //
                         c.SingleApiVersion("v1", "MVC Web Api With Customizable ORM Framework by Cihan COPUR");
-                        c.IncludeXmlComments(string.Format(@"{0}\bin\XmlDocument.XML", System.AppDomain.CurrentDomain.BaseDirectory));
+                        c.IncludeXmlComments(string.Format(@"{0}\App_Data\XmlDocument.XML", System.AppDomain.CurrentDomain.BaseDirectory));
                         // If you want the output Swagger docs to be indented properly, enable the "PrettyPrint" option.
                         //
                         c.PrettyPrint();
